@@ -10,7 +10,6 @@ async function addGroceryItem(name, quantity, price) {
 }
 
 (async function () {
- // await openFile();
   await addGroceryItem('eggs', 12, 1.50);
   await addGroceryItem('nutella', 1, 4);
 })();
